@@ -1,0 +1,226 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage{fontspec}
+%\setmainfont[
+%  Ligatures=TeX,
+%  Extension=.otf,
+%  BoldFont=cmunbx,
+%  ItalicFont=cmunti,
+%  BoldItalicFont=cmunbi,
+%  SlantedFont=cmunsl
+%]{cmunrm}
+
+%\usepackage{polyglossia}
+%\setmainlanguage{spanish}
+
+\usepackage[c5paper]{geometry}
+%\geometry{inner=2.5cm,outer=2.5cm,bmargin=3.2cm}
+%\usepackage[DIV=14,BCOR=2mm,headinclude=true,footinclude=false]{typearea}
+
+%\usepackage{ulem} %Hace que \emph sea subrayar
+
+%\usepackage[p,osf]{scholax}
+%% T1 and textcomp are loaded by package. Change that here, if you want
+%% load sans and typewriter packages here, if needed
+
+\usepackage{ebgaramond}
+%\usepackage[type1]{libertine} % Linux Libertine for zweispaltige Texte
+%\usepackage{textcomp}% Required to get special symbols
+\usepackage[scaled=.8]{DejaVuSansMono}% FiraMono Typewriter font
+\usepackage{PTSansNarrow} 
+%\gilliuscondensed
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage{bm}% Extra bold faces
+%\usepackage[lf]{carlito}
+
+\usepackage{lettrine} %Capital letters at the beginning of a chapter
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{-20} % versalitas menos separadas
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+
+%\usepackage{array,multirow,booktabs,colortbl,chngcntr} % El último es para counterwithout;
+\usepackage[strict]{changepage}
+%\usepackage{caption}
+%\captionsetup{format=plain,labelsep=newline,labelfont={small,sc},
+%textfont={small,it},singlelinecheck=false}
+\usepackage[Bjornstrup]{fncychap} % Para cabeceras de capítulos sofisticados:     Sonny,    Lenny,    Glenn,    Conny,    Rejne,    and Bjarne.
+
+\usepackage{graphicx,wrapfig,booktabs,multicol} % wallpaper: poner imágenes de fondo; wrapfigure: figuras a un lado del texto
+%\graphicspath{{figures/}}
+\usepackage{fancyhdr}
+\usepackage{emptypage,pdfpages,fancybox} % Para que las páginas en blanco no tengan encabezado;
+\usepackage{enumitem} %paralist: para compactenum, enumerate sin espacios
+%\setlist[itemize]{nosep} %Espacio entre items en itemize
+\usepackage[hyperref]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+
+%\usepackage{minipage}
+
+%\usepackage{quotchap} %Encabezados de capítulos
+\usepackage{syntonly,verbatim}
+%\syntaxonly
+
+\usepackage{setspace,xspace} % xspace: Da \xspace para no tener que poner {} después de los comandos; pdflscape: páginas en horizontal;
+
+\newenvironment{quotex}{\begin{quote}\small}{\end{quote}}
+\newenvironment{quotationx}{\begin{quotation}\small}{\end{quotation}}
+
+
+\begin{document}
+
+% Por alguna razón, los marginados se creaban al revés. Así los corrijo. Feo, pero eficaz:
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+%\setcounter{secnumdepth}{4} % Para que llegue a numerar hasta las subsubsecciones;
+%\renewcommand{\heavyrulewidth}{0.14em} % Grosor de las líneas extremas de las tablas;
+%\renewcommand\thempfootnote{\alpha{mpfootnote}} % Símbolo de notas dentro de minipage
+%\let\oldcaptionof\captionof
+%\renewcommand{\captionof}[2]{\oldcaptionof{#1}{\newline \textit{#2} }}
+%\renewcommand{\tablename}{Tabla}
+%\counterwithout{figure}{chapter}
+%\counterwithout{table}{chapter} % Así la numeración es 1, 2, 3... y no 1.1, 1.2... y no reinicia la num. en cada capítulo;
+
+%\providecommand{\ggl}{\guillemotleft}
+%\providecommand{\ggr}{\guillemotright\xspace}
+\providecommand{\flright}[1]{\begin{flushright}#1\end{flushright}}
+\providecommand{\flrightit}[1]{\begin{flushright}\itshape #1\end{flushright}}
+%\renewcommand\UrlFont\sffamily
+\urlstyle{tt}
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+%Portada:
+%\includepdf{00Portada}
+
+\frontmatter
+%
+%\onehalfspacing
+%\pagenumbering{Roman} %gobble es como empty
+
+%\include{preindice}
+
+%\fancyhf{}
+%\fancyhead[LE]{\small \textbf{\thepage}$\quad$ Índice general}
+%\fancyhead[RO]{\small Índice general $\quad$\textbf{\thepage}}
+%\clearpage
+\tableofcontents
+
+%\doublespacing
+\mainmatter
+
+\fancyhf{}
+\fancyhead[LE]{\small \thepage$\quad${\scshape\chaptername{} \thechapter}: \nouppercase{\itshape\leftmark}}
+\fancyhead[RO]{\small \textsc{Section }\thesection{}: \nouppercase{\itshape\rightmark} $\quad$\upshape\thepage}
+%\cfoot{\bfseries\thepage}
+
+\pagenumbering{arabic}
+
+%\onehalfspacing
+
+% introductorios
+
+\chapter{Introduction}
+\input{202109_08The Gift of 1000 Sages}
+%Sugiere un índice: Tomismo, no-ser+infinito+no-dualidad vedantotaoista, naturaleza tripartita del hombre, todo esto en la tradición hermética, y todo esto en práctica espiritual
+\input{201012_15Guenon Maritain Thomism}
+\input{201204_01The Garden of Metaphysics}
+\input{201006_24Vedanta and Western Tradition}
+
+\chapter{A primer on metaphysics}
+\input{202209_18Sacred Science 101 Introduction}
+\input{202209_22Sacred Science 102 The Self and the Ego}
+\input{202209_28Sacred Science 103 The Vital Center}
+\input{202210_06Sacred Science 104 Essence and Substance}
+\input{202210_13Sacred Science 105 Individual Manifestation}
+\input{202210_27Sacred Science 106 Origin of Mind}
+\input{202211_06Sacred Science 107 The Heart of the Matter}
+\input{202211_13Sacred Science 108 The Subtle State}
+\input{202103_07The Descent of the Absolute}
+
+\chapter{Elements of metaphysics}
+%Otra lista: tomismo, consecuencias más allá del tomismo, incorporarlo en un todo más grande tradicional (genon, evola, lagrange...), leerlos en perspectiva esotérica (como estados de conciencia), y entenderlo como algo por vivir, no por debatir.
+% Otro: esencia/existencia, forma/materia, acto/potencia, privacion, ser humano, creacion activa
+%Otras
+\input{201409_18Outline of Perennial Philosophy Being}
+% Después debería venir algo del conocimiento
+\input{201208_08The Possible and the Real} %leer. Tira muchos futuros hilos
+
+%102Self, Ego, Manifestation
+
+\input{201111_23Ideas and Hidden History}
+
+
+\input{202112_04Principial Origin and Final Destiny}
+
+%104 Essence and substance
+\input{201201_26The Traditional Notion of Causation}
+
+\input{201102_21Unity, Uniformity, Harmony}
+\input{201405_09Multiplicity and Unity}
+\input{202201_13The Reality of Existence}
+
+%Otros
+\input{201102_22The Infinite}
+
+%Perfección y privación
+
+
+%Tal vez en Ciudad Antigua? En vez del descenso del Uno a lo múltiple, de lo múltiple a lo uno
+\chapter{The Real Man. The Person}
+\input{201202_07Rational Man and Real Man}
+\input{201202_17Salvation, Deliverance, Action}
+\input{201207_25The Possibility of Liberation}
+\input{201103_23Metaphysics of Freedom}
+\input{201102_27Providence, Will, Destiny}
+\input{201003_18Genius and the Real Man}
+
+\chapter{States of being. The Divine Journey}
+\input{202212_14Divine Journey Summary}
+\input{202102_14Multiple States in Christianity}
+\input{202202_15Astral Symbolism}
+\input{201208_23The Divine Journey}
+\input{202006_21Multiple States of the Human Being}
+\input{202109_30On Being a Person}
+\input{201411_19Principles of Manifestation}
+
+\chapter{Macrocosm and microcosm. Layers of the soul}
+\input{201407_28Prequel to the Three Worlds}
+
+%. Pagan views, Vedanta, the place of Christianity
+% La llegada al Ser desde distintas tradiciones
+% (continúa la escala del Ser)
+%intersección entre filosofía y metafísica: moral: cómo vivo y me afectan los primeros principios
+\chapter{The trascendent unity of religions}
+\input{201404_02The Knowledge of God}
+
+%Esto en microcosmo:
+\input{201410_10Subration}
+
+\chapter{Metaphysics of Nonbeing}
+\input{201102_10Nature Abhors a Vacuum}
+\input{201711_19The Metaphysics of Nonbeing}
+\input{201209_19Logos and Chaos}
+
+\chapter{Epistemology}
+\input{202106_27Esoteric Epistemology}
+\input{201409_29The Metaphysics of Knowing}
+\input{201808_30Losing One’s Head}
+\input{201210_23The Knower and the Known} %MIRAR TABLA
+\input{201212_10Knowledge of the Future}
+
+\chapter{Notes on metaphysics}
+\input{202007_12Oriental Metaphysics}
+\input{202012_22Notes to Oriental Metaphysics}
+
+\end{document}
