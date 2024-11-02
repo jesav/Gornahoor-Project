@@ -5,3 +5,9 @@ Welcome to Gornahoor Project. This project is aimed to provide to every unknown 
 This material will be ordered by main issues, so that readers can follow the deep threads of this site more easily.
 
 Feel free to take part in this project. You can fork it or open an issue to point out enhancements.
+
+Upcoming uploads:
+
+- Hermetism
+- The Ancient City: politics, family values, traditional sociology
+- Gnosis: salient traditional authors
