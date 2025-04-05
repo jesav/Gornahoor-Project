@@ -9,5 +9,4 @@ Feel free to take part in this project. You can fork it or open an issue to poin
 Upcoming uploads:
 
 - Hermetism
-- The Ancient City: politics, family values, traditional sociology
 - Gnosis: salient traditional authors
