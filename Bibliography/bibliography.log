@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.12.26)  9 JUN 2025 14:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.12.26)  30 JUN 2025 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1049,9 +1049,9 @@ Package biblatex Info: ... file 'bibliography.bbl' found.
 Package biblatex Info: Reference section=0 on input line 78.
 Package biblatex Info: Reference segment=0 on input line 78.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 120.
+(Font)              scaled to size 17.28pt on input line 134.
 LaTeX Font Info:    Trying to load font information for OT1+PTSansNarrow-TLF on
- input line 120.
+ input line 134.
 
 (C:\Users\jsavi\AppData\Local\Programs\MiKTeX\tex/latex/paratype\ot1ptsansnarro
 w-tlf.fd
@@ -1062,30 +1062,33 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (bibliography.toc)
-\tf@toc=\write6
-\openout6 = `bibliography.toc'.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 134.
 
- [1
+Overfull \hbox (1.60518pt too wide) in paragraph at lines 135--135
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Borella, Jean. \OT1/EBGaramond-OsF/m/it/12 (
+-10) Guenon-ian Es-o-ter-ism And Chris-tian Mys-tery\OT1/EBGaramond-OsF/m/n/12 
+(-10) . Sophia Peren-
+ []
+
+[1
+
 
 
 
 {C:/Users/jsavi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jsav
 i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptsans_ot1.enc}{C:/Use
 rs/jsavi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_qn2lct.en
-c}] [2
-
-]
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 135.
-
-Overfull \hbox (4.06992pt too wide) in paragraph at lines 136--136
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) Dembski, William. \OT1/EBGaramond-OsF/m/it/1
-2 (-10) In-tel-li-gent De-sign Un-cen-sored: An Easy-to-Understand
+c}{C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_
+ne3tkd.enc}]
+Overfull \hbox (16.54839pt too wide) in paragraph at lines 135--135
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Coomaraswamy, Ananda Ken-tish. \OT1/EBGaramo
+nd-OsF/m/it/12 (-10) The Es-sen-tial Ananda K. Coomaraswamy\OT1/EBGaramond-OsF/
+m/n/12 (-10) .
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+DejaVuSansMono-TLF 
-on input line 135.
+on input line 134.
 
 (C:\Users\jsavi\AppData\Local\Programs\MiKTeX\tex/latex/dejavu\ot1dejavusansmon
 o-tlf.fd
@@ -1093,7 +1096,7 @@ File: OT1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for OT1/DejaVuSansMo
 no-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 135.
+(Font)              scaled to size 9.60004pt on input line 134.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `DejaVuSansMono-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1104,34 +1107,23 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 135.
+(Font)              <12> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 135.
+(Font)              <8> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 135.
+(Font)              <6> on input line 134.
 
-Overfull \hbox (4.14934pt too wide) in paragraph at lines 136--136
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) Heart, George. \OT1/EBGaramond-OsF/m/it/12 (
--10) Chris-tian-ity : Dog-matic Faith and Gnos-tic viv-i-fy-ing Knowl-
- []
-
-[1
-
-{C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_ne
-3tkd.enc}]
-Overfull \hbox (1.4177pt too wide) in paragraph at lines 136--136
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) Nagel, Thomas. \OT1/EBGaramond-OsF/m/it/12 (
--10) Mind and Cos-mos: Why the Ma-te-ri-al-ist Neo-Darwinian
+Overfull \hbox (4.06992pt too wide) in paragraph at lines 135--135
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Dembski, William. \OT1/EBGaramond-OsF/m/it/1
+2 (-10) In-tel-li-gent De-sign Un-cen-sored: An Easy-to-Understand
  []
 
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 135.
+(Font)              scaled to size 10.95pt on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 135.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 135.
+(Font)              <10.95> on input line 134.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 135.
+(Font)              scaled to size 10.95pt on input line 134.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1140,10 +1132,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2{C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_
-4a6c3c.enc}{C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/dejavu
-/dejavumono_ot1.enc}]
-Overfull \hbox (4.38976pt too wide) in paragraph at lines 136--136
+[2{C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/dejavu/dejavumo
+no_ot1.enc}]
+Overfull \hbox (4.14934pt too wide) in paragraph at lines 135--135
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Heart, George. \OT1/EBGaramond-OsF/m/it/12 (
+-10) Chris-tian-ity : Dog-matic Faith and Gnos-tic viv-i-fy-ing Knowl-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+Overfull \hbox (1.4177pt too wide) in paragraph at lines 135--135
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Nagel, Thomas. \OT1/EBGaramond-OsF/m/it/12 (
+-10) Mind and Cos-mos: Why the Ma-te-ri-al-ist Neo-Darwinian
+ []
+
+
+Overfull \hbox (4.38976pt too wide) in paragraph at lines 135--135
 []\OT1/EBGaramond-OsF/m/n/12 (-10) Seiss, Willi. \OT1/EBGaramond-OsF/m/it/12 (-
 10) Chakra-Werk. Okkulte Un-ter-richts-briefe. Der Weg der h[]oheren
  []
@@ -1156,7 +1167,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
+[4]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1165,7 +1176,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4] (bibliography.aux)
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6] (bibliography.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1177,11 +1197,11 @@ Package logreq Info: Writing requests to 'bibliography.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23738 strings out of 474586
- 434399 string characters out of 5745672
+ 23833 strings out of 474586
+ 438018 string characters out of 5745672
  1934558 words of memory out of 5000000
- 45474 multiletter control sequences out of 15000+600000
- 576634 words of font info for 90 fonts, out of 8000000 for 9000
+ 45552 multiletter control sequences out of 15000+600000
+ 575365 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,12n,93p,1011b,2741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/type1/public/dejavu/DejaV
@@ -1189,9 +1209,9 @@ uSansMono.pfb><C:/Users/jsavi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 ebgaramond/EBGaramond-Italic.pfb><C:/Users/jsavi/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb><C:/Users/jsavi/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTN77F.pfb>
-Output written on bibliography.pdf (6 pages, 90403 bytes).
+Output written on bibliography.pdf (6 pages, 97201 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 23041 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 16897 words of extra memory for PDF output out of 17280 (max. 10000000)
 

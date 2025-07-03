@@ -117,21 +117,20 @@
 %\fancyhead[LE]{\small \textbf{\thepage}$\quad$ Índice general}
 %\fancyhead[RO]{\small Índice general $\quad$\textbf{\thepage}}
 %\clearpage
-\tableofcontents
+%\tableofcontents
 
 %\doublespacing
 \mainmatter
 
 \fancyhf{}
-\fancyhead[LE]{\small \thepage$\quad${\scshape\chaptername{} \thechapter}: \nouppercase{\itshape\leftmark}}
-\fancyhead[RO]{\small \textsc{Section }\thesection{}: \nouppercase{\itshape\rightmark} $\quad$\upshape\thepage}
+\fancyhead[LE]{\small \thepage$\quad$ \nouppercase{\itshape\leftmark}}
+\fancyhead[RO]{\small \nouppercase{\itshape\rightmark} $\quad$\upshape\thepage}
 %\cfoot{\bfseries\thepage}
 
 \pagenumbering{arabic}
 
 \nocite{*}
 \onehalfspacing
-\appendix
 \printbibliography
 
 \end{document}
