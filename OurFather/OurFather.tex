@@ -1,0 +1,149 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage{fontspec}
+%\setmainfont[
+%  Ligatures=TeX,
+%  Extension=.otf,
+%  BoldFont=cmunbx,
+%  ItalicFont=cmunti,
+%  BoldItalicFont=cmunbi,
+%  SlantedFont=cmunsl
+%]{cmunrm}
+
+%\usepackage{polyglossia}
+%\setmainlanguage{spanish}
+
+\usepackage[c5paper]{geometry}
+%\geometry{inner=2.5cm,outer=2.5cm,bmargin=3.2cm}
+%\usepackage[DIV=14,BCOR=2mm,headinclude=true,footinclude=false]{typearea}
+
+%\usepackage{ulem} %Hace que \emph sea subrayar
+
+%\usepackage[p,osf]{scholax}
+%% T1 and textcomp are loaded by package. Change that here, if you want
+%% load sans and typewriter packages here, if needed
+
+\usepackage{ebgaramond}
+%\usepackage[type1]{libertine} % Linux Libertine for zweispaltige Texte
+%\usepackage{textcomp}% Required to get special symbols
+\usepackage[scaled=.8]{FiraMono}% Typewriter font
+\usepackage{PTSansNarrow} 
+%\gilliuscondensed
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage{bm}% Extra bold faces
+%\usepackage[lf]{carlito}
+
+\usepackage{lettrine} %Capital letters at the beginning of a chapter
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{-20} % versalitas menos separadas
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+
+%\usepackage{array,multirow,booktabs,colortbl,chngcntr} % El último es para counterwithout;
+\usepackage[strict]{changepage}
+%\usepackage{caption}
+%\captionsetup{format=plain,labelsep=newline,labelfont={small,sc},
+%textfont={small,it},singlelinecheck=false}
+\usepackage[Bjornstrup]{fncychap} % Para cabeceras de capítulos sofisticados:     Sonny,    Lenny,    Glenn,    Conny,    Rejne,    and Bjarne.
+
+\usepackage{graphicx,wrapfig,booktabs,multicol,tabularx} % wallpaper: poner imágenes de fondo; wrapfigure: figuras a un lado del texto
+%\graphicspath{{figures/}}
+\usepackage{fancyhdr}
+\usepackage{emptypage,pdfpages,fancybox} % Para que las páginas en blanco no tengan encabezado;
+\usepackage{enumitem} %paralist: para compactenum, enumerate sin espacios
+%\setlist[itemize]{nosep} %Espacio entre items en itemize
+\usepackage[hyperref]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+%\usepackage{minipage}
+
+%\usepackage{quotchap} %Encabezados de capítulos
+\usepackage{syntonly,verbatim}
+%\syntaxonly
+
+\usepackage{setspace,xspace} % xspace: Da \xspace para no tener que poner {} después de los comandos; pdflscape: páginas en horizontal;
+
+\newenvironment{quotex}{\begin{quote}\small}{\end{quote}}
+\newenvironment{quotationx}{\begin{quotation}\small}{\end{quotation}}
+
+
+\begin{document}
+
+% Por alguna razón, los marginados se creaban al revés. Así los corrijo. Feo, pero eficaz:
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+%\setcounter{secnumdepth}{4} % Para que llegue a numerar hasta las subsubsecciones;
+%\renewcommand{\heavyrulewidth}{0.14em} % Grosor de las líneas extremas de las tablas;
+%\renewcommand\thempfootnote{\alpha{mpfootnote}} % Símbolo de notas dentro de minipage
+%\let\oldcaptionof\captionof
+%\renewcommand{\captionof}[2]{\oldcaptionof{#1}{\newline \textit{#2} }}
+%\renewcommand{\tablename}{Tabla}
+%\counterwithout{figure}{chapter}
+%\counterwithout{table}{chapter} % Así la numeración es 1, 2, 3... y no 1.1, 1.2... y no reinicia la num. en cada capítulo;
+
+%\providecommand{\ggl}{\guillemotleft}
+%\providecommand{\ggr}{\guillemotright\xspace}
+\providecommand{\flright}[1]{\begin{flushright}#1\end{flushright}}
+\providecommand{\flrightit}[1]{\begin{flushright}\itshape #1\end{flushright}}
+%\renewcommand\UrlFont\sffamily
+\urlstyle{tt}
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+%Portada:
+%\includepdf{00Portada}
+
+\frontmatter
+%
+%\onehalfspacing
+%\pagenumbering{Roman} %gobble es como empty
+
+%\include{preindice}
+
+%\fancyhf{}
+%\fancyhead[LE]{\small \textbf{\thepage}$\quad$ Índice general}
+%\fancyhead[RO]{\small Índice general $\quad$\textbf{\thepage}}
+%\clearpage
+\tableofcontents
+
+%\doublespacing
+\mainmatter
+
+\fancyhf{}
+\fancyhead[LE]{\small \thepage$\quad${\scshape\chaptername{} \thechapter}: \nouppercase{\itshape\leftmark}}
+\fancyhead[RO]{\small \textsc{Section }\thesection{}: \nouppercase{\itshape\rightmark} $\quad$\upshape\thepage}
+%\cfoot{\bfseries\thepage}
+
+\pagenumbering{arabic}
+
+%\onehalfspacing
+
+\chapter{Our Father Course}
+\input{202210_21Guide to Meditative Reading}
+\input{202210_22Daily Spiritual Exercises}
+\input{202302_13Our Father Course Week 1}
+\input{202302_19Our Father Course Week 2}
+\input{202302_27Our Father Course Week 3}
+\input{202303_05Our Father Course Week 4}
+\input{202303_12Our Father Course Week 5}
+\input{202303_19Our Father Course Week 6}
+\input{202303_26Our Father Course Week 7}
+\input{202304_02Our Father Course Week 8}
+\input{202304_10Our Father Course Week 9}
+
+%\fancyhf{}
+%\fancyhead[LE]{\small \textbf{\thepage}$\quad${\scshape Appendix{} \thechapter}: \nouppercase{\itshape\leftmark}}
+%\fancyhead[RO]{\small \textsc{Appendix \thechapter}: \nouppercase{\itshape\leftmark} $\quad$\textbf{\upshape\thepage}}
+%\appendix
+
+\end{document}
