@@ -1,0 +1,320 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+%\usepackage{fontspec}
+%\setmainfont[
+%  Ligatures=TeX,
+%  Extension=.otf,
+%  BoldFont=cmunbx,
+%  ItalicFont=cmunti,
+%  BoldItalicFont=cmunbi,
+%  SlantedFont=cmunsl
+%]{cmunrm}
+
+%\usepackage{polyglossia}
+%\setmainlanguage{spanish}
+
+\usepackage[c5paper]{geometry}
+%\geometry{inner=2.5cm,outer=2.5cm,bmargin=3.2cm}
+%\usepackage[DIV=14,BCOR=2mm,headinclude=true,footinclude=false]{typearea}
+
+%\usepackage{ulem} %Hace que \emph sea subrayar
+
+%\usepackage[p,osf]{scholax}
+%% T1 and textcomp are loaded by package. Change that here, if you want
+%% load sans and typewriter packages here, if needed
+
+\usepackage{ebgaramond}
+%\usepackage[type1]{libertine} % Linux Libertine for zweispaltige Texte
+%\usepackage{textcomp}% Required to get special symbols
+\usepackage[scaled=.8]{DejaVuSansMono}% FiraMono Typewriter font
+\usepackage{PTSansNarrow} 
+%\gilliuscondensed
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage{bm}% Extra bold faces
+%\usepackage[lf]{carlito}
+
+\usepackage{lettrine} %Capital letters at the beginning of a chapter
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{-20} % versalitas menos separadas
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+
+%\usepackage{array,multirow,booktabs,colortbl,chngcntr} % El último es para counterwithout;
+\usepackage[strict]{changepage}
+%\usepackage{caption}
+%\captionsetup{format=plain,labelsep=newline,labelfont={small,sc},
+%textfont={small,it},singlelinecheck=false}
+\usepackage[Bjornstrup]{fncychap} % Para cabeceras de capítulos sofisticados:     Sonny,    Lenny,    Glenn,    Conny,    Rejne,    and Bjarne.
+
+\usepackage{graphicx,wrapfig,booktabs,multicol,tabularx} % wallpaper: poner imágenes de fondo; wrapfigure: figuras a un lado del texto
+%\graphicspath{{figures/}}
+\usepackage{fancyhdr}
+\usepackage{emptypage,pdfpages,fancybox} % Para que las páginas en blanco no tengan encabezado;
+\usepackage{enumitem} %paralist: para compactenum, enumerate sin espacios
+%\setlist[itemize]{nosep} %Espacio entre items en itemize
+\usepackage[hyperref]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{verse}
+\usepackage{longtable}
+
+%\usepackage{minipage}
+
+%\usepackage{quotchap} %Encabezados de capítulos
+\usepackage{syntonly,verbatim}
+%\syntaxonly
+
+\usepackage{setspace,xspace} % xspace: Da \xspace para no tener que poner {} después de los comandos; pdflscape: páginas en horizontal;
+
+\newenvironment{quotex}{\begin{quote}\small}{\end{quote}}
+\newenvironment{quotationx}{\begin{quotation}\small}{\end{quotation}}
+
+
+\begin{document}
+
+% Por alguna razón, los marginados se creaban al revés. Así los corrijo. Feo, pero eficaz:
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+%\setcounter{secnumdepth}{4} % Para que llegue a numerar hasta las subsubsecciones;
+%\renewcommand{\heavyrulewidth}{0.14em} % Grosor de las líneas extremas de las tablas;
+%\renewcommand\thempfootnote{\alpha{mpfootnote}} % Símbolo de notas dentro de minipage
+%\let\oldcaptionof\captionof
+%\renewcommand{\captionof}[2]{\oldcaptionof{#1}{\newline \textit{#2} }}
+%\renewcommand{\tablename}{Tabla}
+%\counterwithout{figure}{chapter}
+%\counterwithout{table}{chapter} % Así la numeración es 1, 2, 3... y no 1.1, 1.2... y no reinicia la num. en cada capítulo;
+
+%\providecommand{\ggl}{\guillemotleft}
+%\providecommand{\ggr}{\guillemotright\xspace}
+\providecommand{\flright}[1]{\begin{flushright}#1\end{flushright}}
+\providecommand{\flrightit}[1]{\begin{flushright}\itshape #1\end{flushright}}
+%\renewcommand\UrlFont\sffamily
+\urlstyle{tt}
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+%Portada:
+%\includepdf{00Portada}
+
+\frontmatter
+%
+%\onehalfspacing
+%\pagenumbering{Roman} %gobble es como empty
+
+%\include{preindice}
+
+%\fancyhf{}
+%\fancyhead[LE]{\small \textbf{\thepage}$\quad$ Índice general}
+%\fancyhead[RO]{\small Índice general $\quad$\textbf{\thepage}}
+%\clearpage
+\tableofcontents
+
+%\doublespacing
+\mainmatter
+
+\fancyhf{}
+\fancyhead[LE]{\small \thepage$\quad${\scshape\chaptername{} \thechapter}: \nouppercase{\itshape\leftmark}}
+\fancyhead[RO]{\small \textsc{Section }\thesection{}: \nouppercase{\itshape\rightmark} $\quad$\upshape\thepage}
+%\cfoot{\bfseries\thepage}
+
+\pagenumbering{arabic}
+
+%\onehalfspacing
+
+% introductorios
+
+\chapter{Introduction}
+\input{201607_06Unanticipated Recap}
+
+\chapter{Quotes}
+\input{200908_06Schopenhauer on Christianity}
+\input{201003_19Russian nihilists and monkeys}
+\input{201003_20Toil Pain Death}
+\input{201003_22In pain there is something fortifying manly and profound}
+\input{201003_29Socialism and Christianity}
+\input{201005_01The Third Testament}
+
+\chapter{Confessions}
+\input{201305_14My Meandering Spiritual Journey}
+\input{201304_08Personal Revelations}
+\input{201804_24The Angel of Death Spread his Wings}
+\input{201906_09Love and Work}
+\input{202005_10Mothers Day 2020}
+\input{202012_31Auld Lang Syne}
+\input{202203_24The Pelican the Poet and the Puer}
+\input{202302_05Embracing Insomnia}
+
+\chapter{Musings}
+\input{201004_24The Hair of the Dog}
+\input{201101_26Kidz Kulcha Kreativity}
+\input{201202_02Let no one ignorant of Geometry Enter}
+% Tal vez un apartado de sueños
+\input{201203_18Kalashnikov Dreams}
+\input{201211_12November Musings}
+\input{201301_17Avoiding the Hands of the Sophists}
+\input{201302_25Unserious Meditations}
+\input{201304_01April Fools Talking Blues}
+\input{201304_13April Showers 2013}
+\input{201304_27Benevolent Centralized Power}
+\input{201306_09The Opposite of a Misconception}
+\input{201307_07Androids, Avatars, and Androphiles}
+\input{201307_18Midsummer Night Dream 2013}
+\input{201406_19The Pristine Theology}
+\input{201409_14Turning Back from the Gates of Hell}
+\input{201501_19Scientific and Political Myths}
+\input{201501_28Theodicy and the Other Woman}
+\input{201501_11The Virgin and the Machine Gun}
+\input{201502_15Vanilla Tradition}
+\input{201503_29Spring Fever Intoxication}
+\input{201503_05Artisan of the Soul}
+\input{201504_08Homage to Giuseppe}
+\input{201603_08Spy vs Spy}
+\input{201604_11Gasping for Air}
+\input{201708_17The Temptation of Saint Anthony}
+\input{201711_27The Misuse of Intelligence}
+\input{201809_28Things have always been pretty bad}
+\input{201903_07The Hedgehog and the Fox}
+\input{201803_12A Necessary Interruption}
+\input{201908_04Living in Interesting Times}
+\input{202002_28Death and Final Judgment}
+\input{202102_20The Boulangerie A Parable}
+\input{202203_15Ides of March}
+\input{202005_17Tour Guide through the Ruins}
+\input{202008_16Waiting for a Miracle to Come}
+\input{202012_02Message to Prodigal Sons}
+\input{202111_24Humans May Be Everywhere}
+\input{202304_11Simulation and Yellow Cards}
+
+\chapter{Musings about Tradition}
+\input{201203_19The End of All our Exploring}
+\input{201608_02Idea Density}
+\input{201707_10Reactionary Chic}
+\input{201712_29The Order of Things}
+\input{201904_28What Me Worry}
+\input{202105_02Perpetual Motion}
+\input{202106_01White Boi Summer}
+
+\chapter{Literature}
+\input{200712_26Dialogo di Torquato Tasso e del suo Genio familiare}
+\input{201004_21Hollywood Action Flicks}
+\input{201707_31The Condor and the Anarch}
+\input{202007_27Kerouac and the Faustian West}
+\input{201208_28Bridge of Life}
+\input{201210_22Art and Illusion in Meyrink}
+\input{201601_12The Muzzle of a Pistol}
+
+\chapter{Poetry}
+\input{202102_19Sonnet to the Knight}
+\input{202112_26Laudi alla Vergine Maria}
+\input{202203_01The Two Nights}
+\input{202205_17Cast your soul to the sea}
+\input{202301_18The Sonnet Challenge}
+\input{202301_19Sonnet Nocturne}
+\input{202301_26Sonnet Springtime}
+\input{202302_09Sonnet Miserere}
+\input{202302_16Sonnet Dying Ember}
+\input{202302_23Clementia Dei}
+\input{202303_16Sonnet All at Sea}
+
+\chapter{Films}
+\input{201408_01Lucy in the Sky}
+\input{201507_16Black White and Grey}
+\input{202201_20Gone Baby Gone Mans Justice}
+\input{202202_10Fallen Angel}
+\input{202203_13Have Gun Will Travel}
+\input{202204_02Sleeping Through the Junta}
+\input{202209_05The Garden of Allah}
+\input{202210_09Zabriskie Point}
+
+\chapter{Cuisine}
+\input{202303_30Nanas Sauce}
+
+\chapter{Some Translations}
+\input{200804_18Evolas Advice to the Pope}
+\input{201103_31Julius Evola on Esoteric Catholicism}
+\input{201201_30We Antimoderns}
+\input{201207_01Orientations}
+\input{201210_18Spiritual Knighthood}
+\input{201210_20The Secret Meaning of Marriage}
+\input{201212_30Nietzsche for Today}
+\input{201301_20Iniciatic Centers and History}
+\input{201304_10The Fire of Creation}
+\input{201304_28The Idea of the World in the East}
+\input{202107_04German Influence on Indology}
+\input{201508_22Outline Summary for Evolas Revolt}
+\input{201510_08The Metaphysics of Sex and the One}
+\input{201503_10Scaligero Meets Evola}
+\input{201304_14The Esoteric Origin of the Species}
+
+\chapter{Posts by Logres}
+\input{201104_23The Glory of God}
+\input{201105_06Progenitors of Our Middle Earth}
+\input{201112_24Fears of What May Be, Erring Popes and Councils}
+\input{201104_15Titus Flavius Clemens and the Golden Chain}
+\input{201201_07Harmonics}
+\input{201203_16Middle Earth Once More}
+\input{201203_24Making the Modern Mind}
+\input{201203_31Reversing the Modern Spell}
+\input{201204_14When the King Enjoys His Own Again}
+\input{201204_20The Wisdom of God}
+\input{201204_28Palamidessi reads Evola}
+\input{201303_15The Road to the true West}
+\input{201304_19Putting a Rose Back on the Cross}
+\input{201304_26Finishing What the Inklings Started}
+\input{201305_03Poets of the Reunion}
+\input{201402_14Western Social Order}
+\input{201404_04La Revolution Devore Ses Enfants}
+\input{201404_11Tombergs Labor}
+%Tarot
+\input{201404_25Le Bateleur or Thus Endeth the Lesson}
+\input{201405_10The High Priestess}
+\input{201412_26The Emperor}
+\input{201502_13The Superstition of Reason}
+\input{201905_05The Seven Sacred Liberal Arts}
+
+% Jámblico
+\section[The Theology of Arithmetic]{A commentary on The Theology of Arithmetic by  Iamblicus}
+\input{201303_29Octad}
+\input{201304_05Ennead}
+
+\chapter{Translated Correspondence}
+
+\section{From Guénon to Evola}
+\input{201207_16Letters from Guenon to Evola (I)}
+\input{201207_22Letters from Guenon to Evola (II)}
+\input{201207_29Guenon Evola Letter 7 Introduction}
+\input{201207_30Letters from Guenon to Evola (VII)}
+\input{201208_13Letters from Guenon to Evola (IX)}
+\input{201208_20Letters from Guenon to Evola (X)}
+
+\section{From Guénon to Guido de Giorgio}
+\input{201206_18Letters from Guenon to Guido de Giorgio (I)}
+\input{201207_09Letters from Guenon to Guido de Giorgio (II)}
+\input{201208_27Letters from Guenon to Guido de Giorgio III}
+\input{201209_10Letters from Guenon to Guido de Giorgio (V)}
+\input{201209_17Letters from Guenon to Guido de Giorgio (VI)}
+\input{201210_08Letters from Guenon to Giorgio de Giorgio (VIII)}
+
+\section{From Evola to Eliade}
+\input{201210_01Letters from Evola to Eliade (III)}
+
+\section{From Evola to Carl Schmitt}
+\input{201206_25Letter from Evola to Carl Schmitt I}
+
+\section{Other letters}
+\input{200903_19Julius Evola and Lourdes}
+
+\chapter{Final Hommages}
+\input{202503_30The Beautiful Old Man}
+
+\end{document}
