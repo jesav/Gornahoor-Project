@@ -1,15 +1,15 @@
-[7] Config.pm:328> INFO - This is Biber 2.21
-[7] Config.pm:331> INFO - Logfile is 'bibliography.blg'
-[526] biber-MSWIN64:342> INFO - === 
-[637] Biber.pm:421> INFO - Reading 'bibliography.bcf'
-[1153] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[1248] Biber.pm:4487> INFO - Processing section 0
-[1280] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[1429] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1745] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[3978] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3978] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3978] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[3978] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[4536] bbl.pm:676> INFO - Writing 'bibliography.bbl' with encoding 'UTF-8'
-[4766] bbl.pm:779> INFO - Output to bibliography.bbl
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'bibliography.blg'
+[179] biber-MSWIN64:342> INFO - === 
+[237] Biber.pm:421> INFO - Reading 'bibliography.bcf'
+[426] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[449] Biber.pm:4487> INFO - Processing section 0
+[465] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[553] bibtex.pm:1713> INFO - LaTeX decoding ...
+[766] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[1562] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1566] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1567] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1567] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1722] bbl.pm:676> INFO - Writing 'bibliography.bbl' with encoding 'UTF-8'
+[1795] bbl.pm:779> INFO - Output to bibliography.bbl

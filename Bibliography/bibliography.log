@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  1 MAY 2026 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  16 MAY 2026 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,7 +1261,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9] (bibliography.aux)
+[9]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10] (bibliography.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1273,11 +1282,11 @@ Package logreq Info: Writing requests to 'bibliography.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24486 strings out of 468081
- 457305 string characters out of 5425304
- 1403547 words of memory out of 5000000
- 52624 multiletter control sequences out of 15000+600000
- 645663 words of font info for 93 fonts, out of 8000000 for 9000
+ 24527 strings out of 468081
+ 458799 string characters out of 5425304
+ 1403855 words of memory out of 5000000
+ 52651 multiletter control sequences out of 15000+600000
+ 645986 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1011b,2741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jesús/AppData/Local/Programs/MiKTeX/fonts/type1/public/dejavu/Deja
@@ -1285,9 +1294,9 @@ VuSansMono.pfb><C:/Users/Jesús/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/ebgaramond/EBGaramond-Italic.pfb><C:/Users/Jesús/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb><C:/Users/Jesús/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/paratype/ptsans/PTN77F.pfb>
-Output written on bibliography.pdf (9 pages, 113193 bytes).
+Output written on bibliography.pdf (10 pages, 115998 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
  16897 words of extra memory for PDF output out of 17280 (max. 10000000)
 
