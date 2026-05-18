@@ -9,4 +9,6 @@ Feel free to take part in this project. You can fork it or open an issue to poin
 Volumes:
 - [Metaphysics](./Metaphysics/Metaphysics.pdf)
 - [Ancient City: Politics and Tradition](./AncientCity/AncientCity.pdf)
+- [Hermeticism](./Hermeticism/Hermetism.pdf)
+- [Path of love: Musings about the Polar Couple and the Fifth Way](./PathofLove/PathofLove.pdf)
 - 
