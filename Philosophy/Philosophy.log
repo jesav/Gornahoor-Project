@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  19 JUN 2026 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  21 JUN 2026 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7010,7 +7010,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[530]) (202003_26Readymade Ideas.tex
+[530]) (202001_16Prejudices of Philosophers.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7020,12 +7020,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [531]
-<ReadymadeArt-194x300.jpg, id=3830, 194.7275pt x 301.125pt>
-File: ReadymadeArt-194x300.jpg Graphic file (type jpg)
-<use ReadymadeArt-194x300.jpg>
-Package pdftex.def Info: ReadymadeArt-194x300.jpg  used on input line 19.
-(pdftex.def)             Requested size: 80.66321pt x 124.7348pt.
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7035,9 +7029,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [532]
-Underfull \hbox (badness 2165) in paragraph at lines 29--30
- []\OT1/EBGaramond-OsF/b/n/12 (+10) Philosophical De-bate[] \OT1/EBGaramond-OsF
-/m/n/12 (+10) Sev-eral years ago, I en-
+Overfull \hbox (6.64684pt too wide) in paragraph at lines 29--30
+\OT1/EBGaramond-OsF/m/n/10.95 (-10) place au-to-mat-i-cally. This au-toma-tism 
+in the move-ments of thought
  []
 
 
@@ -7049,7 +7043,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[533 <./ReadymadeArt-194x300.jpg>]
+[533]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7077,6 +7071,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [536]
+Overfull \hbox (7.29578pt too wide) in paragraph at lines 106--107
+\OT1/EBGaramond-OsF/m/n/12 (-10) ences. Un-for-tu-nately, this also in-cludes p
+re-scrip-tion med-i-ca-tions, al-though
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/PTSansNarrow-TLF/m/it' undefined
+(Font)              using `OT1/PTSansNarrow-TLF/m/sl' instead on input line 126
+.
+
+
+LaTeX Font Warning: Font shape `OT1/PTSansNarrow-TLF/m/it' undefined
+(Font)              using `OT1/PTSansNarrow-TLF/m/sl' instead on input line 126
+.
+
+
+LaTeX Font Warning: Font shape `OT1/PTSansNarrow-TLF/m/it' undefined
+(Font)              using `OT1/PTSansNarrow-TLF/m/sl' instead on input line 126
+.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7085,7 +7100,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[537])
+[537]) (202003_26Readymade Ideas.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7094,22 +7109,115 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[538] (Philosophy.aux)
+[538]
+<ReadymadeArt-194x300.jpg, id=3880, 194.7275pt x 301.125pt>
+File: ReadymadeArt-194x300.jpg Graphic file (type jpg)
+<use ReadymadeArt-194x300.jpg>
+Package pdftex.def Info: ReadymadeArt-194x300.jpg  used on input line 19.
+(pdftex.def)             Requested size: 80.66321pt x 124.7348pt.
+
+Underfull \hbox (badness 2165) in paragraph at lines 29--30
+ []\OT1/EBGaramond-OsF/b/n/12 (+10) Philosophical De-bate[] \OT1/EBGaramond-OsF
+/m/n/12 (+10) Sev-eral years ago, I en-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[539 <./ReadymadeArt-194x300.jpg>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[540]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[541]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[542]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[543])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[544] (Philosophy.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-Package rerunfilecheck Info: File `Philosophy.out' has not changed.
-(rerunfilecheck)             Checksum: 94D5637CA0549AFAF1E756C35FD9284A;20832.
+
+
+Package rerunfilecheck Warning: File `Philosophy.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Philosophy.out':
+(rerunfilecheck)             Before: 94D5637CA0549AFAF1E756C35FD9284A;20832
+(rerunfilecheck)             After:  BED5A34B49FD7C379A4D879A5AAA0840;21027.
  ) 
 Here is how much of TeX's memory you used:
- 19298 strings out of 468081
- 354567 string characters out of 5425304
+ 19323 strings out of 468081
+ 355155 string characters out of 5425304
  809521 words of memory out of 5000000
- 45687 multiletter control sequences out of 15000+600000
+ 45692 multiletter control sequences out of 15000+600000
  704860 words of font info for 304 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,2248b,773s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.156} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.155} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.154} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.153} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.152} has been referenced but does not exi
+st, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.151} has been referenced but does not exi
 st, replaced by a fixed one
@@ -7728,9 +7836,9 @@ pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jesús/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jesús/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Jesús/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on Philosophy.pdf (544 pages, 7083550 bytes).
+Output written on Philosophy.pdf (550 pages, 7104228 bytes).
 PDF statistics:
- 4215 PDF objects out of 4296 (max. 8388607)
- 1277 named destinations out of 1440 (max. 500000)
+ 4264 PDF objects out of 4296 (max. 8388607)
+ 1294 named destinations out of 1440 (max. 500000)
  80844 words of extra memory for PDF output out of 89155 (max. 10000000)
 
