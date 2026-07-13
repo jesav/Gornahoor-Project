@@ -1,0 +1,202 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[greek,english]{babel}
+%\usepackage{fontspec}
+%\setmainfont[
+%  Ligatures=TeX,
+%  Extension=.otf,
+%  BoldFont=cmunbx,
+%  ItalicFont=cmunti,
+%  BoldItalicFont=cmunbi,
+%  SlantedFont=cmunsl
+%]{cmunrm}
+
+%\usepackage{polyglossia}
+%\setmainlanguage{spanish}
+
+\usepackage[c5paper]{geometry}
+%\geometry{inner=2.5cm,outer=2.5cm,bmargin=3.2cm}
+%\usepackage[DIV=14,BCOR=2mm,headinclude=true,footinclude=false]{typearea}
+
+%\usepackage{ulem} %Hace que \emph sea subrayar
+
+%\usepackage[p,osf]{scholax}
+%% T1 and textcomp are loaded by package. Change that here, if you want
+%% load sans and typewriter packages here, if needed
+
+\usepackage{ebgaramond}
+%\usepackage[type1]{libertine} % Linux Libertine for zweispaltige Texte
+%\usepackage{textcomp}% Required to get special symbols
+\usepackage[scaled=.8]{DejaVuSansMono}% FiraMono Typewriter font
+\usepackage{PTSansNarrow} 
+%\gilliuscondensed
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage{bm}% Extra bold faces
+%\usepackage[lf]{carlito}
+
+\usepackage{lettrine} %Capital letters at the beginning of a chapter
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{-20} % versalitas menos separadas
+% activate={true,nocompatibility} - activate protrusion and expansion
+% final - enable microtype; use "draft" to disable
+% tracking=true, kerning=true, spacing=true - activate these techniques
+% factor=1100 - add 10% to the protrusion amount (default is 1000)
+% stretch=10, shrink=10 - reduce stretchability/shrinkability (default is 20/20)
+
+%\usepackage{array,multirow,booktabs,colortbl,chngcntr} % El último es para counterwithout;
+\usepackage[strict]{changepage}
+%\usepackage{caption}
+%\captionsetup{format=plain,labelsep=newline,labelfont={small,sc},
+%textfont={small,it},singlelinecheck=false}
+\usepackage[Bjornstrup]{fncychap} % Para cabeceras de capítulos sofisticados:     Sonny,    Lenny,    Glenn,    Conny,    Rejne,    and Bjarne.
+
+\usepackage{graphicx,wrapfig,booktabs,multicol,tabularx} % wallpaper: poner imágenes de fondo; wrapfigure: figuras a un lado del texto
+%\graphicspath{{figures/}}
+\usepackage{fancyhdr}
+\usepackage{emptypage,pdfpages,fancybox} % Para que las páginas en blanco no tengan encabezado;
+\usepackage{enumitem} %paralist: para compactenum, enumerate sin espacios
+%\setlist[itemize]{nosep} %Espacio entre items en itemize
+\usepackage[hyperref]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{verse}
+\usepackage{paracol}
+\usepackage{longtable}
+\usepackage{CJKutf8}
+
+%\usepackage{minipage}
+
+%\usepackage{quotchap} %Encabezados de capítulos
+\usepackage{syntonly,verbatim}
+%\syntaxonly
+
+\usepackage{setspace,xspace} % xspace: Da \xspace para no tener que poner {} después de los comandos; pdflscape: páginas en horizontal;
+
+\newenvironment{quotex}{\begin{quote}\small}{\end{quote}}
+\newenvironment{quotationx}{\begin{quotation}\small}{\end{quotation}}
+
+
+\begin{document}
+
+% Por alguna razón, los marginados se creaban al revés. Así los corrijo. Feo, pero eficaz:
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+%\setcounter{secnumdepth}{4} % Para que llegue a numerar hasta las subsubsecciones;
+%\renewcommand{\heavyrulewidth}{0.14em} % Grosor de las líneas extremas de las tablas;
+%\renewcommand\thempfootnote{\alpha{mpfootnote}} % Símbolo de notas dentro de minipage
+%\let\oldcaptionof\captionof
+%\renewcommand{\captionof}[2]{\oldcaptionof{#1}{\newline \textit{#2} }}
+%\renewcommand{\tablename}{Tabla}
+%\counterwithout{figure}{chapter}
+%\counterwithout{table}{chapter} % Así la numeración es 1, 2, 3... y no 1.1, 1.2... y no reinicia la num. en cada capítulo;
+
+%\providecommand{\ggl}{\guillemotleft}
+%\providecommand{\ggr}{\guillemotright\xspace}
+\providecommand{\flright}[1]{\begin{flushright}#1\end{flushright}}
+\providecommand{\flrightit}[1]{\begin{flushright}\itshape #1\end{flushright}}
+%\renewcommand\UrlFont\sffamily
+\urlstyle{tt}
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+%Portada:
+%\includepdf{00Portada}
+
+\frontmatter
+%
+%\onehalfspacing
+%\pagenumbering{Roman} %gobble es como empty
+
+%\include{preindice}
+
+%\fancyhf{}
+%\fancyhead[LE]{\small \textbf{\thepage}$\quad$ Índice general}
+%\fancyhead[RO]{\small Índice general $\quad$\textbf{\thepage}}
+%\clearpage
+\tableofcontents
+
+%\doublespacing
+\mainmatter
+
+\fancyhf{}
+\fancyhead[LE]{\small \thepage$\quad${\scshape\chaptername{} \thechapter}: \nouppercase{\itshape\leftmark}}
+\fancyhead[RO]{\small \textsc{Section }\thesection{}: \nouppercase{\itshape\rightmark} $\quad$\upshape\thepage}
+%\cfoot{\bfseries\thepage}
+
+\pagenumbering{arabic}
+
+%\onehalfspacing
+
+% introductorios
+\chapter{Posts by Logres}
+\input{201104_08Transformational Possibilities}
+\input{201104_15Titus Flavius Clemens and the Golden Chain}
+\input{201104_23The Glory of God}
+\input{201104_30Credo ut intelligam}
+\input{201105_06Progenitors of Our Middle Earth}
+\input{201105_20Exit the Cave}
+\input{201105_27Two Gnosticisms}
+\input{201106_04NeoPlatonism the Faith}
+\input{201106_11Gold Jupiter Wine}
+\input{201106_18Europes Spirit in the North}
+\input{201106_24A Way Out Further In}
+\input{201107_01Kind Hearts Norman Blood}
+\input{201107_09Yahwehs Template}
+\input{201108_06The Celestial SuperCelestial}
+\input{201108_12The Seven Steps of Esoteric Christianity}
+\input{201112_24Fears of What May Be, Erring Popes and Councils}
+\input{201201_07Harmonics}
+\input{201203_03Recapitulation}
+\input{201203_16Middle Earth Once More}
+\input{201203_24Making the Modern Mind}
+\input{201203_31Reversing the Modern Spell}
+\input{201204_14When the King Enjoys His Own Again}
+\input{201204_20The Wisdom of God}
+\input{201204_28Palamidessi reads Evola}
+\input{201207_13General Law}
+% Sección para Clemente?
+\input{201208_04The Golden Book Saint Clement}
+\input{201208_11Clements Initiation Peter and Shimon Magus debate}
+\input{201303_15The Road to the true West}
+\input{201304_19Putting a Rose Back on the Cross}
+\input{201304_26Finishing What the Inklings Started}
+\input{201305_03Poets of the Reunion}
+\input{201305_18A Higher Imagination}
+\input{201305_24Phantastes}
+\input{201307_05The Philokalias Martial Character}
+\input{201307_12Never the Twain Shall Meet}
+\input{201311_23Restoration Revival Renaissance}
+\input{201402_14Western Social Order}
+\input{201404_04La Revolution Devore Ses Enfants}
+\input{201404_11Tombergs Labor}
+\input{201405_17The Syllables of the Gods}
+\input{201408_02Natures Lessons on Interior Friction}
+\input{201505_09The Metaphysical Principles of the Infintesimal Calculus}
+%Tarot
+\input{201404_25Le Bateleur or Thus Endeth the Lesson}
+\input{201405_10The High Priestess}
+\input{201412_26The Emperor}
+\input{201502_13The Superstition of Reason}
+\input{201905_05The Seven Sacred Liberal Arts}
+
+% Jámblico
+\section[The Theology of Arithmetic]{A commentary on The Theology of Arithmetic by Iamblicus}
+\input{201105_14Fortunes Fool by Numbers}
+\input{201301_04The Dyad}
+\input{201301_11The Triad}
+\input{201303_01Heaven By Storm on the Number Seven}
+\input{201303_29Octad}
+\input{201304_05Ennead}
+
+\section{The Labors of Hercules}
+\input{201308_09The Labors of Hercules Part One}
+\input{201308_16Labors of Hercules Part 2}
+\input{201805_29The Eighth Victory of Hercules Over the Mares of Diomedes}
+
+\end{document}
