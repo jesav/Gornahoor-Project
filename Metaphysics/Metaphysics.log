@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  20 JUL 2026 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.17)  22 JUL 2026 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1030,9 +1030,9 @@ sers/Jesús/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ebgaramond/ebg_qn2lct
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sl' in size <12> not avail
 able
 (Font)              Font shape `OT1/EBGaramond-OsF/m/it' tried instead on input
- line 188.
+ line 202.
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 188.
+(Font)              scaled to size 12.0pt on input line 202.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1086,18 +1086,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Overfull \hbox (2.31593pt too wide) detected at line 795
+Overfull \hbox (2.31593pt too wide) detected at line 803
  []\OT1/EBGaramond-OsF/m/n/12 1002
  []
 
 
-Overfull \hbox (2.62794pt too wide) detected at line 800
- []\OT1/EBGaramond-OsF/m/n/12 1009
+Overfull \hbox (2.55594pt too wide) detected at line 811
+ []\OT1/EBGaramond-OsF/m/n/12 1007
  []
 
 
-Overfull \hbox (2.31593pt too wide) detected at line 809
- []\OT1/EBGaramond-OsF/m/n/12 1020
+Overfull \hbox (0.32393pt too wide) detected at line 812
+ []\OT1/EBGaramond-OsF/m/n/12 1014
+ []
+
+
+Overfull \hbox (0.53993pt too wide) detected at line 820
+ []\OT1/EBGaramond-OsF/m/n/12 1025
+ []
+
+
+Overfull \hbox (1.75192pt too wide) detected at line 822
+ []\OT1/EBGaramond-OsF/m/n/12 1027
+ []
+
+
+Overfull \hbox (0.69592pt too wide) detected at line 826
+ []\OT1/EBGaramond-OsF/m/n/12 1032
  []
 
 )
@@ -1134,7 +1149,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 137--137
 (202109_08The Gift of 1000 Sages.tex
 LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
-<a20210908TheGiftof1000Sages-img001.jpg, id=1126, 225.84375pt x 192.72pt>
+<a20210908TheGiftof1000Sages-img001.jpg, id=1136, 225.84375pt x 192.72pt>
 File: a20210908TheGiftof1000Sages-img001.jpg Graphic file (type jpg)
 <use a20210908TheGiftof1000Sages-img001.jpg>
 Package pdftex.def Info: a20210908TheGiftof1000Sages-img001.jpg  used on input 
@@ -1666,7 +1681,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [37]
-<a20220922SacredScience102TheSelfandtheEgo-img001.png, id=1351, 704.6325pt x 20
+<a20220922SacredScience102TheSelfandtheEgo-img001.png, id=1361, 704.6325pt x 20
 6.7725pt>
 File: a20220922SacredScience102TheSelfandtheEgo-img001.png Graphic file (type p
 ng)
@@ -1684,7 +1699,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [38 <./a20220922SacredScience102TheSelfandtheEgo-img001.png>]
-<a20220922SacredScience102TheSelfandtheEgo-img002.png, id=1359, 396.48125pt x 4
+<a20220922SacredScience102TheSelfandtheEgo-img002.png, id=1369, 396.48125pt x 4
 57.71pt>
 File: a20220922SacredScience102TheSelfandtheEgo-img002.png Graphic file (type p
 ng)
@@ -1722,7 +1737,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [39 <./a20220922SacredScience102TheSelfandtheEgo-img002.png>]
-<a20220922SacredScience102TheSelfandtheEgo-img003.png, id=1367, 939.51pt x 241.
+<a20220922SacredScience102TheSelfandtheEgo-img003.png, id=1377, 939.51pt x 241.
 90375pt>
 File: a20220922SacredScience102TheSelfandtheEgo-img003.png Graphic file (type p
 ng)
@@ -1741,7 +1756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [40 <./a20220922SacredScience102TheSelfandtheEgo-img003.png>])
 (202209_28Sacred Science 103 The Vital Center.tex
-<a20220928SacredScience103TheVitalCenter-img001.png, id=1375, 656.4525pt x 765.
+<a20220928SacredScience103TheVitalCenter-img001.png, id=1385, 656.4525pt x 765.
 86125pt>
 File: a20220928SacredScience103TheVitalCenter-img001.png Graphic file (type png
 )
@@ -1759,7 +1774,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [41]
-<a20220928SacredScience103TheVitalCenter-img002.jpg, id=1382, 164.11313pt x 179
+<a20220928SacredScience103TheVitalCenter-img002.jpg, id=1392, 164.11313pt x 179
 .92218pt>
 File: a20220928SacredScience103TheVitalCenter-img002.jpg Graphic file (type jpg
 )
@@ -1800,7 +1815,7 @@ Overfull \hbox (6.45879pt too wide) in paragraph at lines 1--1
 ce 
  []
 
-<a20221006SacredScience104EssenceandSubstance-img001.jpg, id=1393, 301.125pt x 
+<a20221006SacredScience104EssenceandSubstance-img001.jpg, id=1403, 301.125pt x 
 288.07625pt>
 File: a20221006SacredScience104EssenceandSubstance-img001.jpg Graphic file (typ
 e jpg)
@@ -1894,7 +1909,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [49]) (202210_27Sacred Science 106 Origin of Mind.tex
-<SamkhyaChart.png, id=1439, 771.88374pt x 749.80125pt>
+<SamkhyaChart.png, id=1449, 771.88374pt x 749.80125pt>
 File: SamkhyaChart.png Graphic file (type png)
 <use SamkhyaChart.png>
 Package pdftex.def Info: SamkhyaChart.png  used on input line 9.
@@ -1972,7 +1987,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [55]
-<a20221106SacredScience107TheHeartoftheMatter-img001.png, id=1474, 433.62pt x 4
+<a20221106SacredScience107TheHeartoftheMatter-img001.png, id=1484, 433.62pt x 4
 98.86375pt>
 File: a20221106SacredScience107TheHeartoftheMatter-img001.png Graphic file (typ
 e png)
@@ -2000,7 +2015,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [56 <./a20221106SacredScience107TheHeartoftheMatter-img001.png>]
-<a20221106SacredScience107TheHeartoftheMatter-img002.png, id=1482, 463.7325pt x
+<a20221106SacredScience107TheHeartoftheMatter-img002.png, id=1492, 463.7325pt x
  464.73625pt>
 File: a20221106SacredScience107TheHeartoftheMatter-img002.png Graphic file (typ
 e png)
@@ -2081,7 +2096,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [62]
-<a20221113SacredScience108TheSubtleState-img001.jpg, id=1526, 270.00874pt x 301
+<a20221113SacredScience108TheSubtleState-img001.jpg, id=1536, 270.00874pt x 301
 .125pt>
 File: a20221113SacredScience108TheSubtleState-img001.jpg Graphic file (type jpg
 )
@@ -2121,7 +2136,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [63 <./a20221113SacredScience108TheSubtleState-img001.jpg>]
-<a20221113SacredScience108TheSubtleState-img002.jpg, id=1534, 258.9675pt x 301.
+<a20221113SacredScience108TheSubtleState-img002.jpg, id=1544, 258.9675pt x 301.
 125pt>
 File: a20221113SacredScience108TheSubtleState-img002.jpg Graphic file (type jpg
 )
@@ -2165,7 +2180,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [65]
-<a20210307TheDescentoftheAbsolute-img001.png, id=1547, 243.91125pt x 301.125pt>
+<a20210307TheDescentoftheAbsolute-img001.png, id=1557, 243.91125pt x 301.125pt>
 
 File: a20210307TheDescentoftheAbsolute-img001.png Graphic file (type png)
 <use a20210307TheDescentoftheAbsolute-img001.png>
@@ -2830,7 +2845,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [125]) (202202_05The Rectification.tex
-<AdamAndEveInParadiseTN-1-193x300.jpg, id=1950, 145.29282pt x 225.84375pt>
+<AdamAndEveInParadiseTN-1-193x300.jpg, id=1960, 145.29282pt x 225.84375pt>
 File: AdamAndEveInParadiseTN-1-193x300.jpg Graphic file (type jpg)
 <use AdamAndEveInParadiseTN-1-193x300.jpg>
 Package pdftex.def Info: AdamAndEveInParadiseTN-1-193x300.jpg  used on input li
@@ -2938,7 +2953,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [136]) (201411_19Principles of Manifestation.tex
-<a20141119PrinciplesofManifestation-img001.png, id=2009, 295.1025pt x 266.9975p
+<a20141119PrinciplesofManifestation-img001.png, id=2018, 295.1025pt x 266.9975p
 t>
 File: a20141119PrinciplesofManifestation-img001.png Graphic file (type png)
 <use a20141119PrinciplesofManifestation-img001.png>
@@ -3139,7 +3154,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [155]
-<a20220824MeditationontheTrinity-img001.jpg, id=2124, 225.84375pt x 121.20282pt
+<a20220824MeditationontheTrinity-img001.jpg, id=2133, 225.84375pt x 121.20282pt
 >
 File: a20220824MeditationontheTrinity-img001.jpg Graphic file (type jpg)
 <use a20220824MeditationontheTrinity-img001.jpg>
@@ -3249,7 +3264,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [163]
-<a20211007KnightsofLight-img001.jpg, id=2181, 231.86626pt x 301.125pt>
+<a20211007KnightsofLight-img001.jpg, id=2190, 231.86626pt x 301.125pt>
 File: a20211007KnightsofLight-img001.jpg Graphic file (type jpg)
 <use a20211007KnightsofLight-img001.jpg>
 Package pdftex.def Info: a20211007KnightsofLight-img001.jpg  used on input line
@@ -3307,7 +3322,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [166]) (202106_10Principle of Manifestation.tex
-<BluebirdRainbow-300x199.jpg, id=2198, 225.84375pt x 149.8097pt>
+<BluebirdRainbow-300x199.jpg, id=2207, 225.84375pt x 149.8097pt>
 File: BluebirdRainbow-300x199.jpg Graphic file (type jpg)
 <use BluebirdRainbow-300x199.jpg>
 Package pdftex.def Info: BluebirdRainbow-300x199.jpg  used on input line 4.
@@ -4365,7 +4380,7 @@ Overfull \hbox (7.80357pt too wide) in paragraph at lines 33--34
 m: it is not yet a self-consciousness,
  []
 
-<a20100921TheTrueMan-img001.jpg, id=2830, 444.66125pt x 451.6875pt>
+<a20100921TheTrueMan-img001.jpg, id=2839, 444.66125pt x 451.6875pt>
 File: a20100921TheTrueMan-img001.jpg Graphic file (type jpg)
 <use a20100921TheTrueMan-img001.jpg>
 Package pdftex.def Info: a20100921TheTrueMan-img001.jpg  used on input line 39.
@@ -5998,7 +6013,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [418]
-<a20140926TheEdenicState-img001.jpg, id=3713, 437.38406pt x 521.69907pt>
+<a20140926TheEdenicState-img001.jpg, id=3722, 437.38406pt x 521.69907pt>
 File: a20140926TheEdenicState-img001.jpg Graphic file (type jpg)
 <use a20140926TheEdenicState-img001.jpg>
 Package pdftex.def Info: a20140926TheEdenicState-img001.jpg  used on input line
@@ -6184,7 +6199,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [432]) (201101_11The Fall from the Primordial State.tex
-<a20110111TheFallfromthePrimordialState-img001.jpg, id=3799, 66.2475pt x 99.371
+<a20110111TheFallfromthePrimordialState-img001.jpg, id=3808, 66.2475pt x 99.371
 25pt>
 File: a20110111TheFallfromthePrimordialState-img001.jpg Graphic file (type jpg)
 
@@ -6475,7 +6490,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [455]
-<a20200930TheGuardianoftheThreshold-img001.jpg, id=3946, 47.2164pt x 72.27pt>
+<a20200930TheGuardianoftheThreshold-img001.jpg, id=3955, 47.2164pt x 72.27pt>
 File: a20200930TheGuardianoftheThreshold-img001.jpg Graphic file (type jpg)
 <use a20200930TheGuardianoftheThreshold-img001.jpg>
 Package pdftex.def Info: a20200930TheGuardianoftheThreshold-img001.jpg  used on
@@ -6569,7 +6584,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [464]) (201101_12The End of the Golden Age.tex
-<a20110112TheEndoftheGoldenAge-img001.png, id=4002, 205.76875pt x 125.46875pt>
+<a20110112TheEndoftheGoldenAge-img001.png, id=4011, 205.76875pt x 125.46875pt>
 File: a20110112TheEndoftheGoldenAge-img001.png Graphic file (type png)
 <use a20110112TheEndoftheGoldenAge-img001.png>
 Package pdftex.def Info: a20110112TheEndoftheGoldenAge-img001.png  used on inpu
@@ -6859,7 +6874,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [493]) (202202_15Astral Symbolism.tex
-<a20220215AstralSymbolism-img001.jpg, id=4189, 73.45476pt x 60.42245pt>
+<a20220215AstralSymbolism-img001.jpg, id=4198, 73.45476pt x 60.42245pt>
 File: a20220215AstralSymbolism-img001.jpg Graphic file (type jpg)
 <use a20220215AstralSymbolism-img001.jpg>
 Package pdftex.def Info: a20220215AstralSymbolism-img001.jpg  used on input lin
@@ -6913,7 +6928,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [497]
-<a20120823TheDivineJourney-img001.jpg, id=4211, 293.095pt x 279.0425pt>
+<a20120823TheDivineJourney-img001.jpg, id=4220, 293.095pt x 279.0425pt>
 File: a20120823TheDivineJourney-img001.jpg Graphic file (type jpg)
 <use a20120823TheDivineJourney-img001.jpg>
 Package pdftex.def Info: a20120823TheDivineJourney-img001.jpg  used on input li
@@ -6961,7 +6976,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [501]) (202006_21Multiple States of the Human Being.tex
-<a20200621MultipleStatesoftheHumanBeing-img001.jpg, id=4244, 106.7187pt x 144.5
+<a20200621MultipleStatesoftheHumanBeing-img001.jpg, id=4253, 106.7187pt x 144.5
 4pt>
 File: a20200621MultipleStatesoftheHumanBeing-img001.jpg Graphic file (type jpg)
 
@@ -7160,7 +7175,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [520]) (202205_08Language of the Birds.tex
-<a20220508LanguageoftheBirds-img001.jpg, id=4366, 225.84375pt x 169.38281pt>
+<a20220508LanguageoftheBirds-img001.jpg, id=4375, 225.84375pt x 169.38281pt>
 File: a20220508LanguageoftheBirds-img001.jpg Graphic file (type jpg)
 <use a20220508LanguageoftheBirds-img001.jpg>
 Package pdftex.def Info: a20220508LanguageoftheBirds-img001.jpg  used on input 
@@ -7226,7 +7241,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [526]
-<a20210529EnochsElevationtoHeaven-img001.jpg, id=4407, 195.73125pt x 301.125pt>
+<a20210529EnochsElevationtoHeaven-img001.jpg, id=4416, 195.73125pt x 301.125pt>
 
 File: a20210529EnochsElevationtoHeaven-img001.jpg Graphic file (type jpg)
 <use a20210529EnochsElevationtoHeaven-img001.jpg>
@@ -7612,7 +7627,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [566]) (201103_22Shakti Power as Play.tex
-<shakti-224x300.jpg, id=4665, 224.84pt x 301.125pt>
+<shakti-224x300.jpg, id=4674, 224.84pt x 301.125pt>
 File: shakti-224x300.jpg Graphic file (type jpg)
 <use shakti-224x300.jpg>
 Package pdftex.def Info: shakti-224x300.jpg  used on input line 23.
@@ -8085,7 +8100,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [608]
-<a20141010Subration-img001.jpg, id=4900, 201.00093pt x 112.16907pt>
+<a20141010Subration-img001.jpg, id=4909, 201.00093pt x 112.16907pt>
 File: a20141010Subration-img001.jpg Graphic file (type jpg)
 <use a20141010Subration-img001.jpg>
 Package pdftex.def Info: a20141010Subration-img001.jpg  used on input line 58.
@@ -8095,7 +8110,7 @@ Overfull \hbox (7.67102pt too wide) in paragraph at lines 58--59
 [][] 
  []
 
-<a20141010Subration-img002.jpg, id=4901, 444.15938pt x 374.14781pt>
+<a20141010Subration-img002.jpg, id=4910, 444.15938pt x 374.14781pt>
 File: a20141010Subration-img002.jpg Graphic file (type jpg)
 <use a20141010Subration-img002.jpg>
 Package pdftex.def Info: a20141010Subration-img002.jpg  used on input line 68.
@@ -8133,7 +8148,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [611]
-<a20221002TheButterflyLovers-img001.jpg, id=4920, 225.84375pt x 215.30438pt>
+<a20221002TheButterflyLovers-img001.jpg, id=4929, 225.84375pt x 215.30438pt>
 File: a20221002TheButterflyLovers-img001.jpg Graphic file (type jpg)
 <use a20221002TheButterflyLovers-img001.jpg>
 Package pdftex.def Info: a20221002TheButterflyLovers-img001.jpg  used on input 
@@ -8153,7 +8168,7 @@ Underfull \hbox (badness 3219) in paragraph at lines 45--46
 []\OT1/EBGaramond-OsF/m/n/10.95 (+10) death at the end of cy-cle X is
  []
 
-<a20221002TheButterflyLovers-img002.jpg, id=4929, 25.83653pt x 54.2025pt>
+<a20221002TheButterflyLovers-img002.jpg, id=4938, 25.83653pt x 54.2025pt>
 File: a20221002TheButterflyLovers-img002.jpg Graphic file (type jpg)
 <use a20221002TheButterflyLovers-img002.jpg>
 Package pdftex.def Info: a20221002TheButterflyLovers-img002.jpg  used on input 
@@ -10218,7 +10233,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [691]
-<a20180830LosingOnesHead-img001.jpg, id=5504, 216.81pt x 211.7511pt>
+<a20180830LosingOnesHead-img001.jpg, id=5513, 216.81pt x 211.7511pt>
 File: a20180830LosingOnesHead-img001.jpg Graphic file (type jpg)
 <use a20180830LosingOnesHead-img001.jpg>
 Package pdftex.def Info: a20180830LosingOnesHead-img001.jpg  used on input line
@@ -10252,7 +10267,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [694]) (201210_23The Knower and the Known.tex
-<a20121023TheKnowerandtheKnown-img001.jpg, id=5521, 315.1775pt x 240.9pt>
+<a20121023TheKnowerandtheKnown-img001.jpg, id=5530, 315.1775pt x 240.9pt>
 File: a20121023TheKnowerandtheKnown-img001.jpg Graphic file (type jpg)
 <use a20121023TheKnowerandtheKnown-img001.jpg>
 Package pdftex.def Info: a20121023TheKnowerandtheKnown-img001.jpg  used on inpu
@@ -10311,7 +10326,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [698]
-<a20121210KnowledgeoftheFuture-img001.jpg, id=5545, 225.84375pt x 213.79875pt>
+<a20121210KnowledgeoftheFuture-img001.jpg, id=5554, 225.84375pt x 213.79875pt>
 File: a20121210KnowledgeoftheFuture-img001.jpg Graphic file (type jpg)
 <use a20121210KnowledgeoftheFuture-img001.jpg>
 Package pdftex.def Info: a20121210KnowledgeoftheFuture-img001.jpg  used on inpu
@@ -10568,7 +10583,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [722]) (202107_06Participation in the World Process.tex
-<a20210706ParticipationintheWorldProcess-img001.jpg, id=5682, 225.84375pt x 225
+<a20210706ParticipationintheWorldProcess-img001.jpg, id=5691, 225.84375pt x 225
 .84375pt>
 File: a20210706ParticipationintheWorldProcess-img001.jpg Graphic file (type jpg
 )
@@ -10709,7 +10724,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [731]
-<a20121204CreativityNondualityInspiration-img001.jpg, id=5746, 225.84375pt x 12
+<a20121204CreativityNondualityInspiration-img001.jpg, id=5755, 225.84375pt x 12
 7.22531pt>
 File: a20121204CreativityNondualityInspiration-img001.jpg Graphic file (type jp
 g)
@@ -10773,7 +10788,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [736]) (202204_07The Intellect and the Mirror.tex
-<mirrorWithVase-238x300.jpg, id=5770, 179.16937pt x 225.84375pt>
+<mirrorWithVase-238x300.jpg, id=5779, 179.16937pt x 225.84375pt>
 File: mirrorWithVase-238x300.jpg Graphic file (type jpg)
 <use mirrorWithVase-238x300.jpg>
 Package pdftex.def Info: mirrorWithVase-238x300.jpg  used on input line 11.
@@ -12894,7 +12909,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[930]) (201002_25The Conversion of Rene Guenon.tex
+[930]) (201402_26The Essence of the Traditions.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -12903,7 +12918,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[931]) (201206_24Guenon and Islam.tex
+[931]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -12940,9 +12955,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [935]
-Underfull \vbox (badness 1831) has occurred while \output is active []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -12960,16 +12972,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[937]) (201502_04The Exoteric Path.tex
-Overfull \hbox (1.3297pt too wide) in paragraph at lines 4--4
-\OT1/EBGaramond-OsF/m/n/10.95 (-10) ing them and where they are re-ally go-ing,
- the mod-ern world would
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[937]) (201409_05Why How What.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -12979,12 +12982,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [938]
-Overfull \hbox (8.19394pt too wide) in paragraph at lines 11--12
-\OT1/EBGaramond-OsF/m/n/12 (-10) ian scholas-ti-cism" as Evola called it. Evola
- him-self, al-though call-ing Guenon
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -12994,9 +12991,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [939]
-Overfull \hbox (0.68816pt too wide) in paragraph at lines 15--15
-[]\OT1/EBGaramond-OsF/m/n/10.95 (-10) If wor-ship of prov-i-dence were for-bid-
-den, the nat-u-ral con-se-quence
+Overfull \hbox (9.52408pt too wide) in paragraph at lines 64--65
+\OT1/EBGaramond-OsF/m/n/12 (-10) vert Jacques Mar-i-tain. Mar-i-tain man-aged t
+o ex-clude Guenon from Catholic
  []
 
 
@@ -13009,21 +13006,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [940]
-Underfull \vbox (badness 1173) has occurred while \output is active []
+Overfull \hbox (3.08142pt too wide) in paragraph at lines 75--76
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) How dif-fer-ent would the doc-u-ment on the 
+re-la-tion-ship of the Church
+ []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[941]
-Overfull \hbox (11.74307pt too wide) in paragraph at lines 44--45
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) Hence, any at-tempts to re-vive West-ern pa-
-gan-ism are counter-traditional,
+Overfull \hbox (11.16978pt too wide) in paragraph at lines 80--81
+\OT1/EBGaramond-OsF/m/n/12 (-10) type where all re-li-gions gath-ered to-gether
+ in-dis-crim-i-nately. In-stead, Guenon
  []
 
 
@@ -13035,7 +13026,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[942]
+[941]) (201002_25The Conversion of Rene Guenon.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[942]) (201206_24Guenon and Islam.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13072,16 +13072,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [946]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[947]) (201612_14Sense and Nonsense.tex
-Underfull \vbox (badness 1038) has occurred while \output is active []
+Underfull \vbox (badness 1831) has occurred while \output is active []
 
 
 
@@ -13092,7 +13083,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[948]
+[947]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[948]) (201502_04The Exoteric Path.tex
+Overfull \hbox (1.3297pt too wide) in paragraph at lines 4--4
+\OT1/EBGaramond-OsF/m/n/10.95 (-10) ing them and where they are re-ally go-ing,
+ the mod-ern world would
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13102,6 +13111,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [949]
+Overfull \hbox (8.19394pt too wide) in paragraph at lines 11--12
+\OT1/EBGaramond-OsF/m/n/12 (-10) ian scholas-ti-cism" as Evola called it. Evola
+ him-self, al-though call-ing Guenon
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13111,6 +13126,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [950]
+Overfull \hbox (0.68816pt too wide) in paragraph at lines 15--15
+[]\OT1/EBGaramond-OsF/m/n/10.95 (-10) If wor-ship of prov-i-dence were for-bid-
+den, the nat-u-ral con-se-quence
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13120,6 +13141,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [951]
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13129,6 +13153,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [952]
+Overfull \hbox (11.74307pt too wide) in paragraph at lines 44--45
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Hence, any at-tempts to re-vive West-ern pa-
+gan-ism are counter-traditional,
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13155,7 +13185,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[955])
+[955]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13165,23 +13195,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [956]
-Chapter 14.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 380--380
-[][][][][][][][][]  
- []
-
-(201211_26Possessing the Truth Actively.tex
-Overfull \hbox (7.88312pt too wide) in paragraph at lines 4--5
- []\OT1/EBGaramond-OsF/b/n/12 (-10) Decline and Cos-mic Cy-cles[] \OT1/EBGaramo
-nd-OsF/m/n/12 (-10) In a re-cent com-ment, Jason-Adam brought
- []
-
-
-
-[957
-
-]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13190,11 +13203,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[958]
-Overfull \hbox (3.37315pt too wide) in paragraph at lines 48--49
-\OT1/EBGaramond-OsF/m/n/12 (-10) yond that, a great deal of self-knowledge that
- is the fruit of self-observation.
- []
+[957]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[958]) (201612_14Sense and Nonsense.tex
+Underfull \vbox (badness 1038) has occurred while \output is active []
 
 
 
@@ -13214,7 +13233,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[960]) (201608_25Primer on Tradition and its Future.tex
+[960]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13224,12 +13243,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [961]
-Overfull \hbox (0.5849pt too wide) in paragraph at lines 8--9
-\OT1/EBGaramond-OsF/m/n/12 (-10) op-posed to all tra-di-tional ideas, is eas-il
-y rec-og-nized. How-ever, the counter-
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13248,12 +13261,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [963]
-Overfull \hbox (5.75818pt too wide) in paragraph at lines 44--45
-\OT1/EBGaramond-OsF/m/n/12 (-10) material-physical and historical-psychological
--cultural causes. What
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13280,7 +13287,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[966]
+[966])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13291,46 +13298,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [967]
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[968]
-Overfull \hbox (15.65561pt too wide) in paragraph at lines 98--99
-[]\OT1/EBGaramond-OsF/b/n/12 (-10) Julius Evola\OT1/EBGaramond-OsF/m/n/12 (-10)
- : \OT1/EBGaramond-OsF/m/it/12 (-10) The Re-volt against the Mod-ern World\OT1/
-EBGaramond-OsF/m/n/12 (-10) . Builds on Guenon's
- []
-
-)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[969]
-
-[970
+[968
 
 ]
-Chapter 15.
+Chapter 14.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 384--384
+Overfull \hbox (10.0pt too wide) in paragraph at lines 382--382
 [][][][][][][][][]  
  []
 
-(200610_26Logical Analysis Squared.tex
+(201211_26Possessing the Truth Actively.tex
+Overfull \hbox (7.88312pt too wide) in paragraph at lines 4--5
+ []\OT1/EBGaramond-OsF/b/n/12 (-10) Decline and Cos-mic Cy-cles[] \OT1/EBGaramo
+nd-OsF/m/n/12 (-10) In a re-cent com-ment, Jason-Adam brought
+ []
 
-[971]
-Overfull \hbox (1.95865pt too wide) in paragraph at lines 33--34
-\OT1/EBGaramond-OsF/m/n/12 (-10) the un-man-i-fested. This is con-sis-tent with
- what we learned from Guenon's
+
+
+[969]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[970]
+Overfull \hbox (3.37315pt too wide) in paragraph at lines 48--49
+\OT1/EBGaramond-OsF/m/n/12 (-10) yond that, a great deal of self-knowledge that
+ is the fruit of self-observation.
  []
 
 
@@ -13342,7 +13339,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[972]) (201005_10Chess and the Royal Art.tex
+[971]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[972]) (201608_25Primer on Tradition and its Future.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13352,9 +13358,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [973]
-Overfull \hbox (1.26892pt too wide) in paragraph at lines 20--21
-\OT1/EBGaramond-OsF/m/n/10.95 (-10) con-tained, in a syn-thetic man-ner, in the
- uni-ver-sal and di-vine Spirit.
+Overfull \hbox (0.5849pt too wide) in paragraph at lines 8--9
+\OT1/EBGaramond-OsF/m/n/12 (-10) op-posed to all tra-di-tional ideas, is eas-il
+y rec-og-nized. How-ever, the counter-
  []
 
 
@@ -13375,7 +13381,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[975]) (201010_24Intuition.tex
+[975]
+Overfull \hbox (5.75818pt too wide) in paragraph at lines 44--45
+\OT1/EBGaramond-OsF/m/n/12 (-10) material-physical and historical-psychological
+-cultural causes. What
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13385,12 +13397,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [976]
-Overfull \hbox (0.53099pt too wide) in paragraph at lines 14--15
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) Of course, to the writer Wells' cha-grin, ou
-r feel-ings can only be known
- []
-
-) (201010_24Quality.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13399,7 +13405,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[977]) (201010_24The Human Being.tex
+[977]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13408,7 +13414,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[978]) (201104_12Life of the Spirit.tex
+[978]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13426,7 +13432,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[980]) (201104_18Nonduality.tex
+[980]
+Overfull \hbox (15.65561pt too wide) in paragraph at lines 98--99
+[]\OT1/EBGaramond-OsF/b/n/12 (-10) Julius Evola\OT1/EBGaramond-OsF/m/n/12 (-10)
+ : \OT1/EBGaramond-OsF/m/it/12 (-10) The Re-volt against the Mod-ern World\OT1/
+EBGaramond-OsF/m/n/12 (-10) . Builds on Guenon's
+ []
+
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13437,26 +13450,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [981]
 
+[982
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+]
+Chapter 15.
 
-[982]) (201405_27Illusion and Spiritual Warfare.tex
+Overfull \hbox (10.0pt too wide) in paragraph at lines 386--386
+[][][][][][][][][]  
+ []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(200610_26Logical Analysis Squared.tex
 
 [983]
-Overfull \hbox (7.54575pt too wide) in paragraph at lines 29--30
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) However, it was even-tu-ally over-turned by 
-the Ein-steinian model, which
+Overfull \hbox (1.95865pt too wide) in paragraph at lines 33--34
+\OT1/EBGaramond-OsF/m/n/12 (-10) the un-man-i-fested. This is con-sis-tent with
+ what we learned from Guenon's
  []
 
 
@@ -13468,7 +13476,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[984]
+[984]) (201005_10Chess and the Royal Art.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13478,30 +13486,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [985]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[986]) (202007_12Oriental Metaphysics.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[987]
-Overfull \hbox (17.60454pt too wide) in paragraph at lines 18--19
- []\OT1/EBGaramond-OsF/b/n/12 (-10) Metaphysics[] \OT1/EBGaramond-OsF/m/n/12 (-
-10) In it-self, meta-physics is nei-ther East-ern nor West-ern. Guenon
+Overfull \hbox (1.26892pt too wide) in paragraph at lines 20--21
+\OT1/EBGaramond-OsF/m/n/10.95 (-10) con-tained, in a syn-thetic man-ner, in the
+ uni-ver-sal and di-vine Spirit.
  []
 
 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[986]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[987]) (201010_24Intuition.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13511,21 +13519,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [988]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[989]
-Overfull \hbox (2.26646pt too wide) in paragraph at lines 47--48
- []\OT1/EBGaramond-OsF/b/n/12 (-10) Intuition[] \OT1/EBGaramond-OsF/m/n/12 (-10
-) Rea-son is a hu-man fea-ture and thus is fully nat-u-ral. If physics
+Overfull \hbox (0.53099pt too wide) in paragraph at lines 14--15
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Of course, to the writer Wells' cha-grin, ou
+r feel-ings can only be known
  []
 
-
+) (201010_24Quality.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13534,7 +13533,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[990]
+[989]) (201010_24The Human Being.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[990]) (201104_12Life of the Spirit.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13552,7 +13560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[992]
+[992]) (201104_18Nonduality.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13561,7 +13569,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[993]) (202012_22Notes to Oriental Metaphysics.tex
+[993]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13570,20 +13578,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[994]
-<a20201222NotestoOrientalMetaphysics-img001.jpg, id=7197, 165.61874pt x 193.472
-81pt>
-File: a20201222NotestoOrientalMetaphysics-img001.jpg Graphic file (type jpg)
-<use a20201222NotestoOrientalMetaphysics-img001.jpg>
-Package pdftex.def Info: a20201222NotestoOrientalMetaphysics-img001.jpg  used o
-n input line 20.
-(pdftex.def)             Requested size: 115.93231pt x 135.43004pt.
-
-Overfull \hbox (3.00186pt too wide) in paragraph at lines 20--21
-[][] 
- []
-
-
+[994]) (201405_27Illusion and Spiritual Warfare.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13593,9 +13588,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [995]
-Overfull \hbox (13.1563pt too wide) in paragraph at lines 27--28
-[]\OT1/EBGaramond-OsF/b/n/12 (-10) Surparational. \OT1/EBGaramond-OsF/m/n/12 (-
-10) The supra-tional, or meta-
+Overfull \hbox (7.54575pt too wide) in paragraph at lines 29--30
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) However, it was even-tu-ally over-turned by 
+the Ein-steinian model, which
  []
 
 
@@ -13607,13 +13602,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[996 <./a20201222NotestoOrientalMetaphysics-img001.jpg>]
-Overfull \hbox (4.12627pt too wide) in paragraph at lines 55--56
-[]\OT1/EBGaramond-OsF/b/n/12 (-10) Ataraxy\OT1/EBGaramond-OsF/m/n/12 (-10) . Tr
-an-quil-ity, im-per-turba-bil-ity. State of soul which is peace-
- []
-
-
+[996]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13631,13 +13620,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[998]) (201206_27The Intellectual Love of God.tex
-Overfull \hbox (10.13756pt too wide) in paragraph at lines 11--12
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) Hence, I stud-ied Vivekananda, Ra-makr-ishna
-, Nis-ar-ga-datta, Au-robindo,
- []
-
-
+[998]) (202007_12Oriental Metaphysics.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13647,7 +13630,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [999]
-Underfull \vbox (badness 2781) has occurred while \output is active []
+Overfull \hbox (17.60454pt too wide) in paragraph at lines 18--19
+ []\OT1/EBGaramond-OsF/b/n/12 (-10) Metaphysics[] \OT1/EBGaramond-OsF/m/n/12 (-
+10) In it-self, meta-physics is nei-ther East-ern nor West-ern. Guenon
+ []
 
 
 
@@ -13659,19 +13645,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1000]
-Overfull \hbox (3.42566pt too wide) in paragraph at lines 27--28
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) In Spinoza's teach-ing, God is the fun-da-me
-n-tal re-al-ity, in which essence
- []
-
-
-Overfull \hbox (4.7769pt too wide) in paragraph at lines 29--30
-\OT1/EBGaramond-OsF/m/n/12 (-10) og-nized three forms of knowl-edge; \OT1/EBGar
-amond-OsF/m/it/12 (-10) opin-ion\OT1/EBGaramond-OsF/m/n/12 (-10) , or knowl-edg
-e of sen-sual things;
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13681,6 +13654,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1001]
+Overfull \hbox (2.26646pt too wide) in paragraph at lines 47--48
+ []\OT1/EBGaramond-OsF/b/n/12 (-10) Intuition[] \OT1/EBGaramond-OsF/m/n/12 (-10
+) Rea-son is a hu-man fea-ture and thus is fully nat-u-ral. If physics
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13690,24 +13669,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1002]
-Overfull \hbox (4.48874pt too wide) in paragraph at lines 50--51
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) A very in-tel-li-gent friend re-cently told 
-me it is con-ceiv-able that a wealthy
- []
-
-
-Overfull \hbox (0.56422pt too wide) in paragraph at lines 52--53
-[]\OT1/EBGaramond-OsF/m/n/12 (-10) How can Spinoza be im-proved? Per-haps, we c
-an re-gard the At-tributes
- []
-
-
-Overfull \hbox (10.48154pt too wide) in paragraph at lines 52--53
-\OT1/EBGaramond-OsF/m/n/12 (-10) un-named at-tributes as higher states of non-f
-ormal man-i-fes-ta-tion as Guenon
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13734,7 +13695,180 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1005]) (201804_26Space Aliens Pigs Roosters and Snakes.tex
+[1005]) (202012_22Notes to Oriental Metaphysics.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1006]
+<a20201222NotestoOrientalMetaphysics-img001.jpg, id=7280, 165.61874pt x 193.472
+81pt>
+File: a20201222NotestoOrientalMetaphysics-img001.jpg Graphic file (type jpg)
+<use a20201222NotestoOrientalMetaphysics-img001.jpg>
+Package pdftex.def Info: a20201222NotestoOrientalMetaphysics-img001.jpg  used o
+n input line 20.
+(pdftex.def)             Requested size: 115.93231pt x 135.43004pt.
+
+Overfull \hbox (3.00186pt too wide) in paragraph at lines 20--21
+[][] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1007]
+Overfull \hbox (13.1563pt too wide) in paragraph at lines 27--28
+[]\OT1/EBGaramond-OsF/b/n/12 (-10) Surparational. \OT1/EBGaramond-OsF/m/n/12 (-
+10) The supra-tional, or meta-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1008 <./a20201222NotestoOrientalMetaphysics-img001.jpg>]
+Overfull \hbox (4.12627pt too wide) in paragraph at lines 55--56
+[]\OT1/EBGaramond-OsF/b/n/12 (-10) Ataraxy\OT1/EBGaramond-OsF/m/n/12 (-10) . Tr
+an-quil-ity, im-per-turba-bil-ity. State of soul which is peace-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1009]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1010]) (201206_27The Intellectual Love of God.tex
+Overfull \hbox (10.13756pt too wide) in paragraph at lines 11--12
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) Hence, I stud-ied Vivekananda, Ra-makr-ishna
+, Nis-ar-ga-datta, Au-robindo,
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1011]
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1012]
+Overfull \hbox (3.42566pt too wide) in paragraph at lines 27--28
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) In Spinoza's teach-ing, God is the fun-da-me
+n-tal re-al-ity, in which essence
+ []
+
+
+Overfull \hbox (4.7769pt too wide) in paragraph at lines 29--30
+\OT1/EBGaramond-OsF/m/n/12 (-10) og-nized three forms of knowl-edge; \OT1/EBGar
+amond-OsF/m/it/12 (-10) opin-ion\OT1/EBGaramond-OsF/m/n/12 (-10) , or knowl-edg
+e of sen-sual things;
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1013]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1014]
+Overfull \hbox (4.48874pt too wide) in paragraph at lines 50--51
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) A very in-tel-li-gent friend re-cently told 
+me it is con-ceiv-able that a wealthy
+ []
+
+
+Overfull \hbox (0.56422pt too wide) in paragraph at lines 52--53
+[]\OT1/EBGaramond-OsF/m/n/12 (-10) How can Spinoza be im-proved? Per-haps, we c
+an re-gard the At-tributes
+ []
+
+
+Overfull \hbox (10.48154pt too wide) in paragraph at lines 52--53
+\OT1/EBGaramond-OsF/m/n/12 (-10) un-named at-tributes as higher states of non-f
+ormal man-i-fes-ta-tion as Guenon
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1015]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1016]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1017]) (201804_26Space Aliens Pigs Roosters and Snakes.tex
 Overfull \hbox (1.6013pt too wide) in paragraph at lines 1--1
 []\OT1/EBGaramond-OsF/b/n/17.28 (-10) Space Aliens, Pigs, Roost-ers, and Snakes
  
@@ -13749,7 +13883,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1006]
+[1018]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13758,7 +13892,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1007]
+[1019]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13767,7 +13901,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1008]
+[1020]
 Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []|\OT1/EBGaramond-OsF/m/n/10.95 (+10) Karana-sarira
  []
@@ -13819,7 +13953,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1009]
+[1021]
 Overfull \hbox (5.65547pt too wide) in paragraph at lines 87--88
  []\OT1/EBGaramond-OsF/b/n/12 (-10) Incarnation[] \OT1/EBGaramond-OsF/m/n/12 (-
 10) The math-e-mati-cian and meta-physi-cian, \OT1/EBGaramond-OsF/b/n/12 (-10) 
@@ -13835,7 +13969,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1010]
+[1022]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13844,7 +13978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1011]
+[1023]
 Overfull \hbox (8.90883pt too wide) in paragraph at lines 100--101
  []\OT1/EBGaramond-OsF/b/n/12 (-10) Alien Teach-ings[] \OT1/EBGaramond-OsF/m/n/
 12 (-10) So what can space-men teach us earth-lings? The schema
@@ -13866,7 +14000,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1012]
+[1024]
 
 LaTeX Font Warning: Font shape `OT1/PTSansNarrow-TLF/m/it' undefined
 (Font)              using `OT1/PTSansNarrow-TLF/m/sl' instead on input line 142
@@ -13881,7 +14015,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1013]
+[1025]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13890,7 +14024,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1014]
+[1026]
 Overfull \hbox (3.40721pt too wide) in paragraph at lines 25--26
 \OT1/EBGaramond-OsF/m/n/12 (-10) knowl-edge of one's proper place in re-la-tion
  to them; and this knowl-
@@ -13905,7 +14039,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1015]
+[1027]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13914,7 +14048,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1016]) (202112_29Infidels and the Faithful.tex
+[1028]) (202112_29Infidels and the Faithful.tex
 Overfull \hbox (5.101pt too wide) in paragraph at lines 13--14
 []\OT1/EBGaramond-OsF/m/n/12 (-10) The \OT1/EBGaramond-OsF/b/n/12 (-10) elect \
 OT1/EBGaramond-OsF/m/n/12 (-10) are sattvic, be-ing pulled up-ward. They fol-lo
@@ -13930,7 +14064,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1017]
+[1029]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13939,7 +14073,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1018]) (202202_21Defects and Accidents.tex
+[1030]) (202202_21Defects and Accidents.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13948,7 +14082,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1019]
+[1031]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13957,7 +14091,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1020]
+[1032]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13966,7 +14100,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1021]
+[1033]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13975,7 +14109,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1022]
+[1034]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13984,7 +14118,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1023]) (202203_03Asleep to the Real World.tex
+[1035]) (202203_03Asleep to the Real World.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -13993,7 +14127,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1024]
+[1036]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -14002,7 +14136,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1025])
+[1037])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -14011,7 +14145,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1026] (Metaphysics.aux)
+[1038] (Metaphysics.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -14029,17 +14163,29 @@ Package rerunfilecheck Warning: File `Metaphysics.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Metaphysics.out':
-(rerunfilecheck)             Before: 29A0A2DF9018C05DAE239FA8EECF1972;39457
-(rerunfilecheck)             After:  9EAA60FF35C2FE8CC8C910DBB3D30FEA;39627.
+(rerunfilecheck)             Before: F85570CA1E129AC6394B140A436F2F72;39843
+(rerunfilecheck)             After:  20727F42891F97E558D0875766DDCF78;39968.
  ) 
 Here is how much of TeX's memory you used:
- 24624 strings out of 468081
- 467201 string characters out of 5425304
- 861725 words of memory out of 5000000
- 49280 multiletter control sequences out of 15000+600000
+ 24673 strings out of 468081
+ 468273 string characters out of 5425304
+ 861726 words of memory out of 5000000
+ 49292 multiletter control sequences out of 15000+600000
  729111 words of font info for 383 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,20n,79p,4484b,1557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.238} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.237} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.236} has been referenced but does not exi
+st, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.235} has been referenced but does not exi
 st, replaced by a fixed one
@@ -15073,9 +15219,9 @@ fonts/cm/cmr8.pfb><C:/Users/Jesús/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb><C:/Users/Jesús/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Jesús/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on Metaphysics.pdf (1034 pages, 5503619 bytes).
+Output written on Metaphysics.pdf (1046 pages, 5539659 bytes).
 PDF statistics:
- 8262 PDF objects out of 8907 (max. 8388607)
- 2395 named destinations out of 2487 (max. 500000)
- 80045 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 8352 PDF objects out of 8907 (max. 8388607)
+ 2426 named destinations out of 2487 (max. 500000)
+ 80061 words of extra memory for PDF output out of 89155 (max. 10000000)
 
