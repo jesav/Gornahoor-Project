@@ -10,5 +10,8 @@ Volumes:
 - [Metaphysics](./Metaphysics/Metaphysics.pdf)
 - [Ancient City: Politics and Tradition](./AncientCity/AncientCity.pdf)
 - [Hermeticism](./Hermeticism/Hermetism.pdf)
+- [Philosophy](./Philosophy/Philosophy.pdf)
 - [Path of love: Musings about the Polar Couple and the Fifth Way](./PathofLove/PathofLove.pdf)
+- [Our Father Course: The original course by Tomberg with extended commentaries and quotes](./OurFather/OurFather.pdf)
+- [Musings: Musings, quotes, stories and sparse posts](./Musings/Musings.pdf)
 - 
